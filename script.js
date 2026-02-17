@@ -77,497 +77,279 @@ const vocabularyData = {
 };
 
 // ============================================
-// DETAILED GRAMMAR TOPICS DATA
+// SUPER SIMPLE GRADE 7 GRAMMAR NOTES – ALL TOPICS
+// Short, fun, clear – perfect for class 7
 // ============================================
 
-const grammarTopics = {
+const grade7Grammar = {
     nouns: {
         title: 'Nouns (Naming Words)',
-        definition: 'A noun is a word that names a person, place, animal, thing, or idea.',
+        definition: 'Names a person, place, animal, thing or idea.',
         sections: [
             {
-                name: 'Types of Nouns',
+                name: 'Main Types',
                 content: `
-                    <h4>Common Noun</h4>
-                    <p>General name for things: dog, city, teacher, book</p>
-                    
-                    <h4>Proper Noun</h4>
-                    <p>Specific name (starts with CAPITAL letter): Rex, London, Mr. Smith, Friday</p>
-                    
-                    <h4>Countable Noun</h4>
-                    <p>Things you can count (have plural): book/books, apple/apples, cat/cats</p>
-                    
-                    <h4>Uncountable Noun</h4>
-                    <p>Things you cannot count (no plural): water, rice, milk, sugar, sand</p>
-                    
-                    <h4>Singular Noun</h4>
-                    <p>Just one: one cat, a student, the house</p>
-                    
-                    <h4>Plural Noun</h4>
-                    <p>More than one: two cats, many students, five houses</p>
+                    <h4>Common</h4><p>boy, school, dog, pizza, game</p>
+                    <h4>Proper</h4><p>Addis Ababa, Tinsae, Messi, Ethiopia (BIG letter!)</p>
+                    <h4>Countable</h4><p>one book → three books</p>
+                    <h4>Uncountable</h4><p>water, milk, rice (no "milks")</p>
                 `
             },
             {
-                name: 'How to Make Plurals',
+                name: 'Singular & Plural',
                 content: `
-                    <h4>Basic Rules:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>Most words: add -s (cat → cats, dog → dogs)</li>
-                        <li>Words ending in s, x, z, ch, sh: add -es (box → boxes, bus → buses)</li>
-                        <li>Words ending in consonant + y: change y to i + -es (baby → babies)</li>
-                        <li>Words ending in f or fe: change to -ves (knife → knives, leaf → leaves)</li>
-                        <li>Irregular (special): man → men, child → children, tooth → teeth, mouse → mice, foot → feet</li>
+                    <ul>
+                        <li>add -s → cat → cats</li>
+                        <li>s/sh/ch/x → add -es → bus → buses</li>
+                        <li>consonant+y → ies → baby → babies</li>
+                        <li>special → man→men, child→children, mouse→mice</li>
                     </ul>
-                    
-                    <h4>Examples:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>The cat sleeps. (singular)</li>
-                        <li>The cats play. (plural)</li>
-                        <li>I drink water. (uncountable - no 'waters')</li>
-                        <li>Tokyo is beautiful. (proper noun)</li>
-                    </ul>
+                    <p>Examples: One dog → Many dogs bark. I drink water (not waters!)</p>
                 `
             }
         ]
     },
+
     verbs: {
-        title: 'Verbs (Action Words)',
-        definition: 'A verb is a word that shows action or state of being.',
+        title: 'Verbs (Action or Being Words)',
+        definition: 'Shows action or being.',
         sections: [
             {
-                name: 'Types of Verbs',
+                name: 'Main Types',
                 content: `
-                    <h4>Action Verb</h4>
-                    <p>Shows what someone does: run, eat, think, write, jump, sing</p>
-                    
-                    <h4>Helping Verb</h4>
-                    <p>Helps the main verb: is, are, was, were, have, has, do, does</p>
-                    
-                    <h4>Linking Verb</h4>
-                    <p>Connects subject to description: am, is, are, was, were, seem, become, appear</p>
+                    <h4>Action</h4><p>run, eat, play, dance, study</p>
+                    <h4>Helping</h4><p>is, am, are, was, have, do</p>
+                    <h4>Linking</h4><p>is, am, are, seem, look</p>
                 `
             },
             {
-                name: 'Verb Forms',
+                name: '3 Forms',
                 content: `
-                    <h4>3 Main Forms:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>Base Form:</strong> walk, eat, go, see, do</li>
-                        <li><strong>Past Tense:</strong> walked, ate, went, saw, did</li>
-                        <li><strong>Past Participle:</strong> walked, eaten, gone, seen, done</li>
+                    <ul>
+                        <li>Now: play, eat, go</li>
+                        <li>Past: played, ate, went</li>
+                        <li>With have/has: played, eaten, gone</li>
                     </ul>
-                    
-                    <h4>Examples:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>She runs fast. (action verb - present)</li>
-                        <li>He is happy. (linking verb)</li>
-                        <li>They have finished homework. (helping + main verb)</li>
-                    </ul>
+                    <p>Examples: I play FIFA. She is happy. We have eaten.</p>
                 `
             }
         ]
     },
+
     adjectives: {
         title: 'Adjectives (Describing Words)',
-        definition: 'An adjective describes a noun - it tells us what kind, how many, or which one.',
+        definition: 'Tells more about a noun – what kind? how many? which?',
         sections: [
             {
-                name: 'Types of Adjectives',
+                name: 'Main Types',
                 content: `
-                    <h4>Descriptive Adjective</h4>
-                    <p>Describes qualities: happy, blue, tall, delicious, beautiful, soft, fast</p>
-                    
-                    <h4>Quantitative Adjective</h4>
-                    <p>Tells how many/much: many, few, several, some, all, most</p>
-                    
-                    <h4>Demonstrative Adjective</h4>
-                    <p>Points to specific things: this, that, these, those</p>
-                    
-                    <h4>Possessive Adjective</h4>
-                    <p>Shows ownership: my, your, his, her, its, our, their</p>
+                    <h4>Quality</h4><p>big, fast, tasty, cool, beautiful</p>
+                    <h4>Number</h4><p>one, many, few, some</p>
+                    <h4>Pointing</h4><p>this, that, these, those</p>
+                    <h4>Ownership</h4><p>my, your, his, her, our</p>
                 `
             },
             {
-                name: 'Comparison of Adjectives',
+                name: 'Comparison',
                 content: `
-                    <h4>Three Levels:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>Positive:</strong> tall, happy, beautiful, good, bad</li>
-                        <li><strong>Comparative:</strong> taller, happier, more beautiful, better, worse</li>
-                        <li><strong>Superlative:</strong> tallest, happiest, most beautiful, best, worst</li>
+                    <ul>
+                        <li>Normal: tall, good</li>
+                        <li>More: taller, better</li>
+                        <li>Most: tallest, best</li>
                     </ul>
-                    
-                    <h4>Rules:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>Short words (1-2 syllables): add -er, -est</li>
-                        <li>Long words (3+ syllables): use more, most</li>
-                    </ul>
-                    
-                    <h4>Examples:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>I have a red ball. (descriptive)</li>
-                        <li>This book is mine. (demonstrative)</li>
-                        <li>She is taller than me. (comparative)</li>
-                        <li>He is the tallest boy. (superlative)</li>
-                    </ul>
+                    <p>Short → -er/-est | Long → more/most</p>
+                    <p>Examples: This game is fun. She is taller than me. Messi is the best!</p>
                 `
             }
         ]
     },
+
     adverbs: {
-        title: 'Adverbs (How/When/Where Words)',
-        definition: 'An adverb describes a verb, adjective, or other adverb. Often ends in -ly.',
+        title: 'Adverbs (How / When / Where)',
+        definition: 'Describes verb, adjective or another adverb. Many end -ly.',
         sections: [
             {
-                name: 'Types of Adverbs',
+                name: 'Main Types',
                 content: `
-                    <h4>Manner (How?)</h4>
-                    <p>How is it done?: quickly, slowly, carefully, well, badly, happily, beautifully</p>
-                    
-                    <h4>Time (When?)</h4>
-                    <p>When did it happen?: now, later, yesterday, soon, today, tomorrow, tonight</p>
-                    
-                    <h4>Place (Where?)</h4>
-                    <p>Where did it happen?: here, there, everywhere, outside, inside, upstairs</p>
-                    
-                    <h4>Frequency (How often?)</h4>
-                    <p>How many times?: always, usually, sometimes, never, rarely, often</p>
-                    
-                    <h4>Degree (How much?)</h4>
-                    <p>To what extent?: very, quite, almost, too, really, extremely</p>
+                    <h4>How</h4><p>quickly, slowly, well, happily</p>
+                    <h4>When</h4><p>now, yesterday, tomorrow, soon</p>
+                    <h4>Where</h4><p>here, there, outside, upstairs</p>
+                    <h4>How often</h4><p>always, sometimes, never</p>
                 `
             },
             {
-                name: 'Formation & Examples',
+                name: 'Examples',
                 content: `
-                    <h4>How to Make Adverbs:</h4>
-                    <p>Many adverbs = adjective + -ly</p>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>quick → quickly</li>
-                        <li>happy → happily</li>
-                        <li>careful → carefully</li>
-                    </ul>
-                    
-                    <h4>Exceptions:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>good → well (not "goodly"!)</li>
-                        <li>fast → fast (no change)</li>
-                    </ul>
-                    
-                    <h4>Examples:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>She runs quickly. (manner)</li>
-                        <li>I will go tomorrow. (time)</li>
-                        <li>He is very tall. (degree - describes adjective)</li>
-                        <li>They always eat breakfast. (frequency)</li>
+                    <p>quick → quickly | good → well | fast → fast</p>
+                    <ul>
+                        <li>She runs quickly.</li>
+                        <li>I study every day.</li>
+                        <li>He is very smart.</li>
                     </ul>
                 `
             }
         ]
     },
+
     pronouns: {
-        title: 'Pronouns (Replacement Words)',
-        definition: 'A pronoun takes the place of a noun so we don\'t repeat the same word.',
+        title: 'Pronouns (Instead of Names)',
+        definition: 'Replaces nouns so we don’t repeat.',
         sections: [
             {
-                name: 'Types of Pronouns',
+                name: 'Main Types',
                 content: `
-                    <h4>Personal - Subject</h4>
-                    <p>Do the action: I, you, he, she, it, we, they</p>
-                    
-                    <h4>Personal - Object</h4>
-                    <p>Receive the action: me, you, him, her, it, us, them</p>
-                    
-                    <h4>Possessive</h4>
-                    <p>Show ownership: my/mine, your/yours, his, her/hers, its, our/ours, their/theirs</p>
-                    
-                    <h4>Demonstrative</h4>
-                    <p>Point to things: this, that, these, those</p>
-                    
-                    <h4>Reflexive</h4>
-                    <p>Back to the subject: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves</p>
-                    
-                    <h4>Interrogative</h4>
-                    <p>Ask questions: who, what, which, whose, whom</p>
+                    <h4>Doing (Subject)</h4><p>I, you, he, she, it, we, they</p>
+                    <h4>Receiving (Object)</h4><p>me, you, him, her, us, them</p>
+                    <h4>Ownership</h4><p>mine, yours, his, hers, ours, theirs</p>
+                    <h4>Pointing</h4><p>this, that, these, those</p>
                 `
             },
             {
-                name: 'Subject vs Object & Possessives',
+                name: 'Examples',
                 content: `
-                    <h4>Subject vs Object:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>Subject:</strong> She loves ice cream. (She = doing the loving)</li>
-                        <li><strong>Object:</strong> I love her. (her = receiving the love)</li>
-                    </ul>
-                    
-                    <h4>Possessive Adjectives vs Pronouns:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>Adjective (before noun):</strong> This is my book.</li>
-                        <li><strong>Pronoun (alone):</strong> This book is mine.</li>
-                    </ul>
-                    
-                    <h4>Examples:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>I like pizza. (subject)</li>
-                        <li>Give me the ball. (object)</li>
-                        <li>That toy is his. (possessive)</li>
-                        <li>She made this herself. (reflexive)</li>
-                        <li>Who is at the door? (interrogative)</li>
+                    <ul>
+                        <li>She plays ball.</li>
+                        <li>Give it to him.</li>
+                        <li>This phone is mine.</li>
+                        <li>Who is there?</li>
                     </ul>
                 `
             }
         ]
     },
+
     prepositions: {
         title: 'Prepositions (Position Words)',
-        definition: 'A preposition shows the relationship between a noun/pronoun and other words in the sentence.',
+        definition: 'Shows where, when or how things connect.',
         sections: [
             {
-                name: 'Categories of Prepositions',
+                name: 'Common Ones',
                 content: `
-                    <h4>Place (Where?)</h4>
-                    <p>in, on, at, under, over, behind, in front of, next to, between, among, above, below</p>
-                    
-                    <h4>Time (When?)</h4>
-                    <p>at, on, in, before, after, during, for, since, until</p>
-                    
-                    <h4>Direction (Where to?)</h4>
-                    <p>to, from, into, out of, through, across, along</p>
-                    
-                    <h4>Other</h4>
-                    <p>with, without, about, of, by, for</p>
+                    <h4>Place</h4><p>in, on, at, under, behind, next to</p>
+                    <h4>Time</h4><p>at, on, in, before, after</p>
+                    <h4>Direction</h4><p>to, from, into, through</p>
                 `
             },
             {
-                name: 'How to Use Prepositions',
+                name: 'Examples',
                 content: `
-                    <h4>Common Usage Rules:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>In</strong> = inside something (in the box, in July, in 2024)</li>
-                        <li><strong>On</strong> = touching surface (on the table, on Monday)</li>
-                        <li><strong>At</strong> = specific point (at school, at 5 o'clock)</li>
-                    </ul>
-                    
-                    <h4>Examples:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>The cat is under the table.</li>
-                        <li>We meet at 3 PM.</li>
-                        <li>She walked through the door.</li>
-                        <li>I come from Japan.</li>
-                        <li>The book is on the shelf.</li>
+                    <ul>
+                        <li>Book is on the table.</li>
+                        <li>We meet at 4 PM.</li>
+                        <li>Go to school.</li>
+                        <li>Cat under the bed.</li>
                     </ul>
                 `
             }
         ]
     },
+
     conjunctions: {
-        title: 'Conjunctions (Connecting Words)',
-        definition: 'A conjunction joins words, phrases, or sentences together.',
+        title: 'Conjunctions (Joining Words)',
+        definition: 'Connects words, groups or sentences.',
         sections: [
             {
-                name: 'Types of Conjunctions',
+                name: 'Main Types',
                 content: `
-                    <h4>Coordinating (FANBOYS)</h4>
-                    <p>For, And, Nor, But, Or, Yet, So - Join equal parts</p>
-                    
-                    <h4>Subordinating</h4>
-                    <p>because, although, since, if, when, while, after, before, unless, until - Join unequal parts</p>
-                    
-                    <h4>Correlative</h4>
-                    <p>both...and, either...or, neither...nor, not only...but also - Work in pairs</p>
+                    <h4>FANBOYS (equal parts)</h4><p>for, and, nor, but, or, yet, so</p>
+                    <h4>Because type</h4><p>because, if, when, although, since</p>
+                    <h4>Pairs</h4><p>both…and, either…or, neither…nor</p>
                 `
             },
             {
-                name: 'FANBOYS Explained',
+                name: 'Examples',
                 content: `
-                    <h4>Each Conjunction:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>For</strong> = reason (I stayed home, for I was sick.)</li>
-                        <li><strong>And</strong> = addition (I like tea and coffee.)</li>
-                        <li><strong>Nor</strong> = negative addition (I don't like fish, nor do I like shrimp.)</li>
-                        <li><strong>But</strong> = contrast (She is small but strong.)</li>
-                        <li><strong>Or</strong> = choice (Tea or coffee?)</li>
-                        <li><strong>Yet</strong> = contrast (He is rich yet unhappy.)</li>
-                        <li><strong>So</strong> = result (I was tired, so I slept.)</li>
-                    </ul>
-                    
-                    <h4>Examples:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>I like apples and oranges. (coordinating)</li>
-                        <li>Because it rained, we stayed inside. (subordinating)</li>
-                        <li>Both my mom and dad are teachers. (correlative)</li>
+                    <ul>
+                        <li>I like tea and coffee.</li>
+                        <li>Because it rained, we stayed home.</li>
+                        <li>Either pizza or burger.</li>
+                        <li>She is small but strong.</li>
                     </ul>
                 `
             }
         ]
     },
+
     tenses: {
-        title: 'Tenses (Time of Action)',
-        definition: 'Tense tells us WHEN an action happens - in the past, present, or future.',
+        title: 'Tenses (When Action Happens)',
+        definition: 'Tells if action is now, before, or later.',
         sections: [
             {
-                name: 'Present Tense',
+                name: 'Present',
                 content: `
-                    <h4>Simple Present</h4>
-                    <p><strong>When Used:</strong> Habits, facts, permanent situations</p>
-                    <p><strong>Structure:</strong> Subject + verb (s/es for he/she/it)</p>
-                    <p><strong>Example:</strong> I play soccer. She plays piano.</p>
-                    
-                    <h4>Present Continuous</h4>
-                    <p><strong>When Used:</strong> Happening right now, temporary</p>
-                    <p><strong>Structure:</strong> am/is/are + verb-ing</p>
-                    <p><strong>Example:</strong> I am eating now. They are playing.</p>
-                    
-                    <h4>Present Perfect</h4>
-                    <p><strong>When Used:</strong> Started in past, continues to now</p>
-                    <p><strong>Structure:</strong> have/has + past participle</p>
-                    <p><strong>Example:</strong> I have lived here for 5 years.</p>
-                    
-                    <h4>Signal Words:</h4>
-                    <p>always, usually, often, sometimes, every day, now, today, since, for</p>
+                    <p>Simple: I play every day. She plays.</p>
+                    <p>Continuous: I am playing now.</p>
+                    <p>Perfect: I have played already.</p>
                 `
             },
             {
-                name: 'Past Tense',
+                name: 'Past',
                 content: `
-                    <h4>Simple Past</h4>
-                    <p><strong>When Used:</strong> Completed actions in past</p>
-                    <p><strong>Structure:</strong> Subject + verb-ed (or irregular)</p>
-                    <p><strong>Example:</strong> I walked home. She went to school.</p>
-                    
-                    <h4>Past Continuous</h4>
-                    <p><strong>When Used:</strong> Action in progress at specific past time</p>
-                    <p><strong>Structure:</strong> was/were + verb-ing</p>
-                    <p><strong>Example:</strong> I was sleeping when you called.</p>
-                    
-                    <h4>Past Perfect</h4>
-                    <p><strong>When Used:</strong> Action completed before another past action</p>
-                    <p><strong>Structure:</strong> had + past participle</p>
-                    <p><strong>Example:</strong> She had left before I arrived.</p>
-                    
-                    <h4>Signal Words:</h4>
-                    <p>yesterday, last week, ago, in 2020, when, while, before</p>
+                    <p>Simple: I played yesterday.</p>
+                    <p>Continuous: I was playing at 5.</p>
+                    <p>Perfect: I had played before dinner.</p>
                 `
             },
             {
-                name: 'Future Tense',
+                name: 'Future',
                 content: `
-                    <h4>Simple Future</h4>
-                    <p><strong>When Used:</strong> Predictions, spontaneous decisions</p>
-                    <p><strong>Structure:</strong> will + verb OR am/is/are going to + verb</p>
-                    <p><strong>Example:</strong> I will help you. It is going to rain.</p>
-                    
-                    <h4>Future Continuous</h4>
-                    <p><strong>When Used:</strong> Action in progress at specific future time</p>
-                    <p><strong>Structure:</strong> will be + verb-ing</p>
-                    <p><strong>Example:</strong> At 8 PM, I will be studying.</p>
-                    
-                    <h4>Future Perfect</h4>
-                    <p><strong>When Used:</strong> Action completed before specific future time</p>
-                    <p><strong>Structure:</strong> will have + past participle</p>
-                    <p><strong>Example:</strong> By tomorrow, I will have finished.</p>
-                    
-                    <h4>Signal Words:</h4>
-                    <p>tomorrow, next week, soon, later, tonight, in 2025</p>
+                    <p>Simple: I will play tomorrow.</p>
+                    <p>Continuous: I will be playing at 7.</p>
+                    <p>Perfect: By tomorrow I will have played.</p>
                 `
             }
         ]
     },
+
     sentences: {
-        title: 'Sentence Structure',
-        definition: 'A sentence is a group of words that expresses a complete thought with a subject and predicate.',
+        title: 'Sentences',
+        definition: 'Group of words with complete thought + subject + verb.',
         sections: [
             {
-                name: 'Types of Sentences',
+                name: 'By Purpose',
                 content: `
-                    <h4>By Purpose:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>Declarative:</strong> Makes a statement (I like pizza.)</li>
-                        <li><strong>Interrogative:</strong> Asks a question (Do you like pizza?)</li>
-                        <li><strong>Imperative:</strong> Gives command/request (Close the door.)</li>
-                        <li><strong>Exclamatory:</strong> Shows strong emotion (What a beautiful day!)</li>
-                    </ul>
-                    
-                    <h4>Sentence Patterns:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>Subject + Verb:</strong> Birds sing.</li>
-                        <li><strong>Subject + Verb + Object:</strong> She eats apples.</li>
-                        <li><strong>Subject + Verb + Complement:</strong> He is tall.</li>
-                        <li><strong>Subject + Verb + Indirect Object + Direct Object:</strong> Mom gave me a gift.</li>
+                    <ul>
+                        <li>Statement: I like football.</li>
+                        <li>Question: Do you like football?</li>
+                        <li>Command: Close the door!</li>
+                        <li>Wow!: What a goal!!!</li>
                     </ul>
                 `
             },
             {
-                name: 'Types by Structure',
+                name: 'By Structure',
                 content: `
-                    <h4>Simple Sentence</h4>
-                    <p>One independent clause: I like cats.</p>
-                    
-                    <h4>Compound Sentence</h4>
-                    <p>Two independent clauses joined by conjunction: I like cats, and she likes dogs.</p>
-                    
-                    <h4>Complex Sentence</h4>
-                    <p>One independent + one dependent clause: Because I like cats, I have three.</p>
-                    
-                    <h4>Compound-Complex Sentence</h4>
-                    <p>Two independent + one or more dependent: I like cats, and she likes dogs because they are friendly.</p>
+                    <p>Simple: Birds fly.</p>
+                    <p>Compound: Birds fly and dogs bark.</p>
+                    <p>Complex: Because it rained, we stayed inside.</p>
                 `
             }
         ]
     },
+
     agreement: {
         title: 'Subject-Verb Agreement',
-        definition: 'The verb must match the subject in number (singular or plural).',
+        definition: 'Verb must match subject (singular/plural).',
         sections: [
             {
-                name: 'Golden Rule & Basic Rules',
+                name: 'Basic Rule',
                 content: `
-                    <h4>The Golden Rule:</h4>
-                    <p style="font-size: 16px; font-weight: bold; color: var(--primary-red); margin: 15px 0;">The verb must match the subject in number!</p>
-                    
-                    <h4>Basic Rules:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li><strong>Most verbs:</strong> Singular add -s or -es, Plural base form</li>
-                        <li><strong>Be verb:</strong> is (singular), are (plural)</li>
-                        <li><strong>Have verb:</strong> has (singular), have (plural)</li>
-                        <li><strong>Do verb:</strong> does (singular), do (plural)</li>
-                    </ul>
-                    
-                    <h4>Examples:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>The cat runs fast. (singular - add s)</li>
-                        <li>The cats run fast. (plural - no s)</li>
-                        <li>She is happy. (singular)</li>
-                        <li>They are happy. (plural)</li>
-                        <li>He has a book. (singular)</li>
-                        <li>They have books. (plural)</li>
+                    <p>Singular subject → verb + s/es</p>
+                    <p>Plural subject → verb no s</p>
+                    <ul>
+                        <li>The boy runs. / The boys run.</li>
+                        <li>She is happy. / They are happy.</li>
                     </ul>
                 `
             },
             {
-                name: 'Special Cases',
+                name: 'Tricky Cases',
                 content: `
-                    <h4>And (Compound Subject)</h4>
-                    <p>Usually plural: Tom and Jerry are friends.</p>
-                    
-                    <h4>Or/Nor</h4>
-                    <p>Verb matches closest subject: Either the teacher or the students are coming.</p>
-                    
-                    <h4>Each, Every, Everyone</h4>
-                    <p>Always singular: Each student has a book.</p>
-                    
-                    <h4>There is/are</h4>
-                    <p>Matches the noun after verb: There is a cat. / There are cats.</p>
-                    
-                    <h4>Collective Nouns (team, family)</h4>
-                    <p>Can be singular or plural: The team is winning. / The team are arguing.</p>
-                    
-                    <h4>Tricky Words:</h4>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>News is singular: The news is good.</li>
-                        <li>Mathematics is singular: Math is fun.</li>
-                        <li>People is plural: The people are happy.</li>
-                        <li>Police is plural: The police are coming.</li>
+                    <ul>
+                        <li>Tom and Jerry are friends. (and = plural)</li>
+                        <li>Each student has a book. (each = singular)</li>
+                        <li>There is a cat. / There are cats.</li>
+                        <li>The team is winning. (team = one group)</li>
                     </ul>
                 `
             }
@@ -575,6 +357,9 @@ const grammarTopics = {
     }
 };
 
+console.log("Full grade 7 grammar cheat sheet – short & powerful!");
+
+console.log("Use this for grade 7 teaching – short, clear & fun!");
 // Quiz Data
 const quizQuestions = [
     { type: 'mc', question: 'Which word is a PROPER NOUN?', options: ['city', 'dog', 'London', 'teacher'], answer: 2 },
