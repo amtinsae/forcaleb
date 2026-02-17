@@ -6,7 +6,7 @@ A modern, interactive English learning platform with a sleek red and orange desi
 
 ### 🔐 **Secure Login**
 - Username: `Caleb`
-- Password: `englishforcaleb`
+- Password: `01caleb`
 
 ### 📚 **Vocabulary Section**
 - **200+ Beginner Words** organized by category:
@@ -273,16 +273,12 @@ This platform uses:
 ## 📞 Support
 
 For issues or improvements, check the code in:
-- HTML structure: `index.html`
-- Styling questions: `styles.css`
-- Functionality: `script.js`
+tel: 0911311748
+email: official.tinsaeendale@gmail.com
 
 ## 📄 License
 
-This educational platform is free to use and modify for learning purposes.
+This educational platform is free to use! For further edition email me.
+This gift for: Caleb Endale
+By: Tinsae Endale
 
----
-
-**Made for Caleb's English Learning Journey! 🚀**
-
-Happy learning! 📚✨
